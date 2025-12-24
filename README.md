@@ -3,7 +3,7 @@ JGProgressHUD
 
 An elegant and simple progress HUD for iOS and tvOS. **Supports Swift and Objective-C!**<br/>
 <p align="center">
-<img src="https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/Presentation.png" style='height: 100%; width: 100%; object-fit: contain'/>
+<img src="https://github.com/Andyirong/JGProgressHUD-s5/raw/master/Examples/Screenshots/Presentation.png" style='height: 100%; width: 100%; object-fit: contain'/>
 </p>
 
 Overview
@@ -25,9 +25,9 @@ __The ultimate progress HUD for iOS and tvOS is here: JGProgressHUD!__
 
 Download the source code and open the <a href="Examples">Examples</a> project to try JGProgressHUD and see all of its features in action!
 
-JGProgressHUD can also be used with SwiftUI. See [JGProgressHUD-SwiftUI](https://github.com/JonasGessner/JGProgressHUD-SwiftUI).
+JGProgressHUD can also be used with SwiftUI. See [JGProgressHUD-SwiftUI](https://github.com/Andyirong/JGProgressHUD-s5-SwiftUI).
 
-[![GitHub license](https://img.shields.io/github/license/JonasGessner/JGProgressHUD.svg)](https://github.com/JonasGessner/JGProgressHUD/blob/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/github/license/JonasGessner/JGProgressHUD.svg)](https://github.com/Andyirong/JGProgressHUD-s5/blob/master/LICENSE.txt)
 [![CocoaPods](https://img.shields.io/cocoapods/v/JGProgressHUD.svg)](https://cocoapods.org/pods/JGProgressHUD)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Carthage compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen)](https://swift.org/package-manager)
@@ -37,9 +37,9 @@ Examples
 --------------
 
 <p align="center">
-<img src="https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/demo1.gif" width="250"/>
+<img src="https://github.com/Andyirong/JGProgressHUD-s5/raw/master/Examples/Screenshots/demo1.gif" width="250"/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/demo2.gif" width="250"/>
+<img src="https://github.com/Andyirong/JGProgressHUD-s5/raw/master/Examples/Screenshots/demo2.gif" width="250"/>
 </p>
 
 #### Showing indeterminate progress:
@@ -127,7 +127,7 @@ Installation
 
 ### Swift Package Manager:
 
-In Xcode, use the menu File > Swift Packages > Add Package Dependency... and enter the package URL `https://github.com/JonasGessner/JGProgressHUD.git`.
+In Xcode, use the menu File > Swift Packages > Add Package Dependency... and enter the package URL `https://github.com/Andyirong/JGProgressHUD-s5.git`.
 
 This is the recommended way of installing JGProgressHUD.
 
@@ -168,10 +168,11 @@ See the <a href="Examples">Examples</a> project for an example implementation of
 Requirements
 ------------
 
-- Base SDK of iOS/tvOS/macCatalyst 13.0 or higher.
-- Deployment target of iOS 8.0, tvOS 9.0, macCatalyst 13.0, or higher.
+- Base SDK of iOS/tvOS/macCatalyst 12.0 or higher.
+- Deployment target of iOS 12.0, tvOS 9.0, macCatalyst 12.0, or higher.
+- Swift 5.0 or higher.
 
-JGProgressHUD can also be used by projects written in Swift. See <a href="https://github.com/JonasGessner/JGProgressHUD#installation">Installation</a> for details.
+JGProgressHUD can also be used by projects written in Swift. See <a href="https://github.com/Andyirong/JGProgressHUD-s5#installation">Installation</a> for details.
 
 Documentation
 ----------------

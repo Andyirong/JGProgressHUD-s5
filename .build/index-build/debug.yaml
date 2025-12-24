@@ -1,0 +1,22 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "JGProgressHUD-arm64-apple-macosx15.0-debug.module": ["<JGProgressHUD-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": []
+  "test": []
+default: "main"
+nodes:
+  "/Users/pundix/Desktop/Workspace/JGProgressHUD-s5/JGProgressHUD/JGProgressHUD/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/pundix/Desktop/Workspace/JGProgressHUD-s5/JGProgressHUD/JGProgressHUD/","/Users/pundix/Desktop/Workspace/JGProgressHUD-s5/Package.swift","/Users/pundix/Desktop/Workspace/JGProgressHUD-s5/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
