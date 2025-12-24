@@ -18,4 +18,4 @@ profile
 DerivedData
 .idea/
 docs/generate-docs.sh
-*.pxm
+*.pxm.build/
